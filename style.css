@@ -4,6 +4,15 @@
     font-family: sans-serif;
 }
 
+html::-webkit-scrollbar-track{
+    background: #222;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(yellow);
+}
+
+
 .hero{
     position: relative;
     width: 100%;
@@ -38,7 +47,7 @@ nav ul li a:hover{
 
 .details{
     margin-top: 12%;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 
 .details h1{
@@ -91,3 +100,4 @@ span{
 .img:hover .liza{
     left: 45%
 }
+
